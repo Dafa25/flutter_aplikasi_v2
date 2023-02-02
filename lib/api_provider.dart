@@ -5,6 +5,7 @@ import 'package:http/http.dart';
 
 import 'package:http/http.dart' as http;
 
+// api provider
 class Apiprovider {
   Future<List<User>> getallData() async {
     var response = await http.get(
