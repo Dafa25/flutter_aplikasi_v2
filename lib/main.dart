@@ -77,7 +77,7 @@ class _MyAppState extends State<MyApp> {
     ));
   }
 
-// tambah data
+// create user
   void tambahData() async {
     bool response = await apiprovider.postData(
         "pnama", "pavatar", "palamat", "pemail", "ppekerjaan", "pquote");
